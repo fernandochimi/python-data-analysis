@@ -8,8 +8,8 @@ import numpy as np
 
 
 def numpysum(n):
-    a = np.arrange(n) ** 2
-    b = np.arrange(n) ** 3
+    a = np.arange(n) ** 2
+    b = np.arange(n) ** 3
     c = a + b
     return c
 

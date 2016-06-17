@@ -3,10 +3,10 @@ import scipy.misc
 import matplotlib.pyplot as plt
 
 
-face = scipy.misc.face()
-xmax = face.shape[0]
-ymax = face.shape[1]
-face[range(xmax), range(ymax)] = 0
-face[range(xmax - 1, -1, -1), range(ymax)] = 0
-plt.imshow(face)
+ascent = scipy.misc.ascent()
+xmax = ascent.shape[0]
+ymax = ascent.shape[1]
+ascent[range(xmax), range(ymax)] = 0
+ascent[range(xmax - 1, -1, -1), range(ymax)] = 0
+plt.imshow(ascent)
 plt.show()

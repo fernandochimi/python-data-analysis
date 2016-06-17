@@ -3,12 +3,12 @@ import scipy.misc
 import matplotlib.pyplot as plt
 
 
-face = scipy.misc.face()
-acopy = face.copy()
-aview = face.view()
+ascent = scipy.misc.ascent()
+acopy = ascent.copy()
+aview = ascent.view()
 
 plt.subplot(221)
-plt.imshow(face)
+plt.imshow(ascent)
 plt.subplot(222)
 plt.imshow(acopy)
 plt.subplot(223)

@@ -1,6 +1,6 @@
 # coding: utf-8
 import numpy
-import scipy
+import scipy.misc
 import matplotlib.pyplot as plt
 
 

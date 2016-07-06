@@ -40,3 +40,9 @@ wf_group = df.groupby(["Weather", "Food"])
 print "WF Groups", wf_group.groups
 
 print "WF Aggregated\n", wf_group.agg([np.mean, np.median])
+
+print "df :3\n", df[:3]
+
+print "Concat back together\n", pd.concat([df[:3], df[3:]])
+
+print "Appending rows\n", df[:3].append(df[5:])
